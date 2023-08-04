@@ -1,0 +1,11 @@
+{
+  "name": "@adr/pkgg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Adrian Hartanto",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native-web": "*"
+  }
+}

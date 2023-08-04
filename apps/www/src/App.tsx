@@ -5,6 +5,7 @@ import DRNViewDescription from "@traveloka/district-view-description";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import { Square } from "@adr/pkgg";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
+      <Square color="blue" />
       <Text
         // @ts-expect-error TODO
         style={{

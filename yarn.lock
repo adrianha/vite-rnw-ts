@@ -458,12 +458,7 @@
     invariant "^2.2.4"
     nullthrows "^1.1.1"
 
-"@traveloka/district-icon@^1.111.0":
-  version "1.114.0"
-  resolved "https://registry.yarnpkg.com/@traveloka/district-icon/-/district-icon-1.114.0.tgz#9dcf181483a76ff17eeb307585949be730602393"
-  integrity sha512-gl/+DXCeqlXJN6BH2N7SkySyb5JlkWub7PSyI/86mu/XI83E6FBR6qS95q9cg5SPtotpaihbaOMjRyMPn9q3/Q==
-
-"@traveloka/district-icon@^1.115.0":
+"@traveloka/district-icon@^1.111.0", "@traveloka/district-icon@^1.115.0":
   version "1.115.0"
   resolved "https://registry.yarnpkg.com/@traveloka/district-icon/-/district-icon-1.115.0.tgz#edf55d9352c14fc22667cf8d358a5abbf2b85572"
   integrity sha512-WGMEe4tCzC2dBNeB/fyYMq5uQ7qqTeJJ1vfRZrhAOhH4W/4pXS3qogG5e+1+L/IQD9d1iQ69tNbjCAGsb0bUXA==
@@ -1031,9 +1026,9 @@ domutils@^3.0.1:
     domhandler "^5.0.3"
 
 electron-to-chromium@^1.4.477:
-  version "1.4.482"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.482.tgz#77c5ed37b93d4dda860e27538e0e2a01d6a19e02"
-  integrity sha512-h+UqpfmEr1Qkk0zp7ej/jid7CXoq4m4QzW6wNTb0ELJ/BZCpA4wgUylBIMGCe621tnr4l5VmoHjdoSx2lbnNJA==
+  version "1.4.484"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.484.tgz#770358eba089471c5dae5719db3a5a4fbf02bfb2"
+  integrity sha512-nO3ZEomTK2PO/3TUXgEx0A97xZTpKVf4p427lABHuCpT1IQ2N+njVh29DkQkCk6Q4m2wjU+faK4xAcfFndwjvw==
 
 encoding@^0.1.11:
   version "0.1.13"
@@ -2125,9 +2120,9 @@ rip-out@^1.0.0:
   integrity sha512-3MaIRdARgudmIIbHKo83/SJQSL+8HWbhGfJbGASsGkNV4EJsuO36CZUiWM13rgeYExOVAujP2qpqWMByUkC2Fg==
 
 rollup@^3.25.2:
-  version "3.27.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.27.0.tgz#15bd07e2e1cbfa9255bf6a3f04a432621c2f3550"
-  integrity sha512-aOltLCrYZ0FhJDm7fCqwTjIUEVjWjcydKBV/Zeid6Mn8BWgDCUBBWT5beM5ieForYNo/1ZHuGJdka26kvQ3Gzg==
+  version "3.27.1"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.27.1.tgz#e6c7340889f33042b4c3247a2acb38ebcfc3a98c"
+  integrity sha512-tXNDFwOkN6C2w5Blj1g6ForKeFw6c1mDu5jxoeDO3/pmYjgt+8yvIFjKzH5FQUq70OKZBkOt0zzv0THXL7vwzQ==
   optionalDependencies:
     fsevents "~2.3.2"
 
