@@ -25,6 +25,7 @@ function App() {
         </a>
       </div>
       <Text
+        // @ts-expect-error TODO
         style={{
           ...R.typography.hero,
           color: R.color.lightPrimary,
@@ -32,6 +33,7 @@ function App() {
       >
         Vite + RNW + TS
       </Text>
+      {/** @ts-expect-error TODO */}
       <IcBrandTraveloka width={60} height={60} style={{ display: "block" }} />
       <DRNBadge variant="ALERT" label="DRNBadge" />
       <DRNButton
@@ -119,6 +121,7 @@ function App() {
                   width: null,
                   height: null,
                   styleSheet: {
+                    // @ts-expect-error TODO
                     lineHeight: 24,
                     marginTop: 16,
                     marginHorizontal: 24,
