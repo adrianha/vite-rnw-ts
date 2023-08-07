@@ -1,5 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import { jsAsJSX } from "./vite/plugins";
 
 // order define priority
 const extensions = [".web.tsx", ".web.ts", ".web.js", ".tsx", ".ts", ".js"];
@@ -7,7 +8,7 @@ const extensions = [".web.tsx", ".web.ts", ".web.js", ".tsx", ".ts", ".js"];
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   return {
-    plugins: [react()],
+    plugins: [jsAsJSX, react()],
     define: {
       __DEV__: mode === "development",
     },
